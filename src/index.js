@@ -1,8 +1,10 @@
 import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
-
+import dogPhoto from './images/dog.jpeg';
 import doggies from './dogGetter';
+
+$('#dogPhoto').attr('src', dogPhoto);
 
 const createDogCards = (dogs) => {
   let newString = '';
