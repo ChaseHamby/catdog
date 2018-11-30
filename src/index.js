@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
-import dogPhoto from './images/dog.jpeg';
+import dogPhoto from './images/dog.png';
 import doggies from './dogGetter';
 
 $('#dogPhoto').attr('src', dogPhoto);
